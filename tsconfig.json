@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "es5"
+    // "sourceMap": true // 타입스크립트 내용을 볼 수 있음
+    // "removeComments": true   // 주석 삭제
+    // "noImplicitAny": true    // 암묵적 any사용하지 못함
+  }
+}
